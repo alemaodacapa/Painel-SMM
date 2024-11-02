@@ -668,7 +668,7 @@ CREATE TABLE `service_api` (
 --
 
 INSERT INTO `service_api` (`id`, `api_name`, `api_url`, `api_key`, `api_type`, `api_limit`, `api_alert`) VALUES
-(13, 'fontesmm.com', 'https://monetizabrasil.com.br/api/v2', 'bf5ebd8ce0************dccc75b7d7', 1, 0, '2');
+(13, 'monetizabrasil.com.br', 'https://monetizabrasil.com.br/api/v2', 'bf5ebd8ce0************dccc75b7d7', 1, 0, '2');
 -- --------------------------------------------------------
 
 --
