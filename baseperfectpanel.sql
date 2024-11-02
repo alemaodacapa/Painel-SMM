@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `rotgramc_xpcine`
+-- Banco de dados: `seu banco de dados aqui`
 --
 
 -- --------------------------------------------------------
@@ -131,7 +131,7 @@ CREATE TABLE `clients` (
 --
 
 INSERT INTO `clients` (`client_id`, `first_name`, `last_name`, `email`, `username`, `password`, `telephone`, `balance`, `balance_type`, `debit_limit`, `spent`, `register_date`, `login_date`, `login_ip`, `register_ip`, `apikey`, `client_type`, `access`, `lang`, `timezone`, `admin_theme`, `referral`, `referral_code`, `refchar`, `reforder`, `total_click`, `sms_verify`, `mail_verify`) VALUES
-(1, 'admin', 'admin', 'comprescriptsna@nuvemscripts.com', 'admin', 'df9ff43b33a727a2f9da2b9f41577d02', '999999999', 997.95, '2', 0, 1.05, '2024-04-30 21:39:29', '2024-05-01 14:10:48', '198.145.149.191', '198.145.149.191', '5652916d59baa94748a7a9aa93e4471b', '2', '{\"admin_access\":\"1\",\"users\":\"1\",\"orders\":\"1\",\"subscriptions\":\"1\",\"dripfeed\":\"1\",\"tasks\":\"1\",\"services\":\"1\",\"payments\":\"1\",\"tickets\":\"1\",\"reports\":\"1\",\"general_settings\":\"1\",\"pages\":\"1\",\"blog\":\"1\",\"seo\":\"1\",\"menu\":\"1\",\"subject\":\"1\",\"child_panels\":\"1\",\"payments_settings\":\"1\",\"bank_accounts\":\"1\",\"payments_bonus\":\"1\",\"alert_settings\":\"1\",\"providers\":\"1\",\"modules\":\"1\",\"themes\":\"1\",\"language\":\"1\",\"logs\":\"1\",\"provider_logs\":\"1\",\"guard_logs\":\"1\",\"admins\":\"1\",\"crons\":\"1\"}', 'en', 0, '1', NULL, '43396', '0', '0', '0', 1, 1);
+(1, 'admin', 'admin', 'atendimento@monetizabrasil.com.br', 'admin', 'df9ff43b33a727a2f9da2b9f41577d02', '999999999', 997.95, '2', 0, 1.05, '2024-04-30 21:39:29', '2024-05-01 14:10:48', '198.145.149.191', '198.145.149.191', '5652916d59baa94748a7a9aa93e4471b', '2', '{\"admin_access\":\"1\",\"users\":\"1\",\"orders\":\"1\",\"subscriptions\":\"1\",\"dripfeed\":\"1\",\"tasks\":\"1\",\"services\":\"1\",\"payments\":\"1\",\"tickets\":\"1\",\"reports\":\"1\",\"general_settings\":\"1\",\"pages\":\"1\",\"blog\":\"1\",\"seo\":\"1\",\"menu\":\"1\",\"subject\":\"1\",\"child_panels\":\"1\",\"payments_settings\":\"1\",\"bank_accounts\":\"1\",\"payments_bonus\":\"1\",\"alert_settings\":\"1\",\"providers\":\"1\",\"modules\":\"1\",\"themes\":\"1\",\"language\":\"1\",\"logs\":\"1\",\"provider_logs\":\"1\",\"guard_logs\":\"1\",\"admins\":\"1\",\"crons\":\"1\"}', 'en', 0, '1', NULL, '43396', '0', '0', '0', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -668,8 +668,7 @@ CREATE TABLE `service_api` (
 --
 
 INSERT INTO `service_api` (`id`, `api_name`, `api_url`, `api_key`, `api_type`, `api_limit`, `api_alert`) VALUES
-(13, 'fontesmm.com', 'https://fontesmm.com/api/v2', 'Crie uma conta na fontesmm.com e gere sua Api key!', 1, 0, '2');
-
+(13, 'fontesmm.com', 'https://monetizabrasil.com.br/api/v2', 'bf5ebd8ce0************dccc75b7d7', 1, 0, '2');
 -- --------------------------------------------------------
 
 --
